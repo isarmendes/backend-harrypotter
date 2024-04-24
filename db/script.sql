@@ -5,7 +5,7 @@ CREATE DATABASE harrypotter;
 CREATE TABLE bruxo (
     id SERIAL PRIMARY KEY,
     nome VARCHAR(100) NOT NULL,
-    idade INTERGER NOT NULL,
+    idade INTEGER NOT NULL,
     casa VARCHAR(100) NOT NULL,
     habilidade VARCHAR (100) NOT NULL,
     sangue VARCHAR(100) NOT NULL,
